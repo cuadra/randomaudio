@@ -19,5 +19,5 @@ while True:
     print(choice.replace(".mp3", ""))
 
     mixer.music.load("audio/"+choice)
-    mixer.music.set_volume(1)
+    mixer.music.set_volume(1.0)
     mixer.music.play()
