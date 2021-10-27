@@ -1,7 +1,7 @@
 import pygame
 pygame.mixer.init()
 pygame.mixer.music.load("audio/bar.mp3")
-pygame.mixer.music.set_volume(.2)
+pygame.mixer.music.set_volume(.4)
 
 while True:
   pygame.mixer.music.play()
